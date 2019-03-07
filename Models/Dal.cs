@@ -5,9 +5,7 @@ using System.Data.SqlClient;
 
 public class Dal
 {
-     public string connectionString = @"Data Source=.\MSSQLSERVER1;Initial Catalog=AmlakSazBot;User ID=sa;Password=123";
-    //  public string connectionString = "Data Source=.;Initial Catalog=AmlakSazBot;Integrated Security=true";
-    //  public string connectionString = "Data Source=94.183.181.67:1435;Initial Catalog=R_his;Integrated Security=true";
+   public string connectionString = "Data Source=.;Initial Catalog=AmlakSazBot;Integrated Security=true";
     public void Execute(string ProcedureName)
     {
         using (SqlConnection con = new SqlConnection(connectionString))
