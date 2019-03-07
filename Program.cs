@@ -22,7 +22,7 @@ namespace AmlakBot
 { 
     class Program
     { 
-        private static string Token = "355857160:AAENG9htiidaSP13Y855MZX_Qzb4VJZv0uE";
+        private static string Token = "your token;
         private static readonly TelegramBotClient Bot = new TelegramBotClient(Token);
         private static string SendTextMessage, _sale;
         public static ChatState chatState = new ChatState();
